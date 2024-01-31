@@ -46,6 +46,17 @@ export default function Home() {
           - site listing all perks for Saga holders
         </li>
       </ul>
+      <p>
+        if you would like to work together, please reach out on{" "}
+        <a
+          href="https://twitter.com/solarnius"
+          className="underline"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          twitter
+        </a>
+      </p>
     </main>
   );
 }
