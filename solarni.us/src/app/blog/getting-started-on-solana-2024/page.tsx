@@ -22,7 +22,7 @@ export default async function Page() {
           time.
         </h2>
         <p className="text-xs">
-          Published Feb 3, 2024 by{" "}
+          Published Feb 4, 2024 by{" "}
           <a
             href="https://twitter.com/solarnius"
             target="_blank"
