@@ -13,7 +13,7 @@ export default async function Page() {
         <img
           src="/intro_header.webp"
           alt="header"
-          className="rounded-lg shadow-lg my-4"
+          className="rounded-lg shadow-lg mb-4"
         />
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tighter">
           Getting Started on Solana in 2024
