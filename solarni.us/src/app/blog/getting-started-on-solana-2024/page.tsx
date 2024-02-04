@@ -9,7 +9,13 @@ export default async function Page() {
   return (
     <div className="flex flex-col gap-4 w-full">
       <div className="flex flex-col gap-2">
-        <h1 className="text-6xl font-extrabold tracking-tighter">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/intro_header.webp"
+          alt="header"
+          className="rounded-lg shadow-lg my-4"
+        />
+        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tighter">
           Getting Started on Solana in 2024
         </h1>
         <h2 className="text-2xl font-medium tracking-tighter">
@@ -45,26 +51,99 @@ export default async function Page() {
         Contents
       </h2>
       <ol className="list-decimal list-inside">
-        <li>Introduction - Why Solana?</li>
-        <li>Wallet Setup</li>
-        <li>Funding Your Wallet</li>
-        <li>Staking Your SOL</li>
-        <li>Defi</li>
-        <li>NFTs</li>
-        <li>Scams to Avoid</li>
+        <li>
+          <a href="#intro" className="underline">
+            Introduction - Why Solana?
+          </a>
+        </li>
+        <li>
+          <a href="#wallet" className="underline">
+            Wallet Setup
+          </a>
+        </li>
+        <li>
+          <a href="#funding" className="underline">
+            Funding Your Wallet
+          </a>
+        </li>
+        <li>
+          <a href="#staking" className="underline">
+            Staking Your SOL
+          </a>
+        </li>
+        <li>
+          <a href="#defi" className="underline">
+            Defi
+          </a>
+        </li>
+        <li>
+          <a href="#nfts" className="underline">
+            NFTs
+          </a>
+        </li>
+        <li>
+          <a href="#community" className="underline">
+            Community
+          </a>
+        </li>
+        <li>
+          <a href="#scams" className="underline">
+            Scams to Avoid
+          </a>
+        </li>
       </ol>
 
-      <h2 className="text-2xl font-bold tracking-tighter mb-[-8px]">
+      <h2 className="text-2xl font-bold tracking-tighter mb-[-8px]" id="intro">
         1. Introduction - Why Solana?
       </h2>
+      <p>Solana is fast, cheap, and secure.</p>
+      <p>Solana has awesome developers and an awesome ecosystem.</p>
+
+      <h2 className="text-2xl font-bold tracking-tighter mb-[-8px]" id="wallet">
+        2. Wallet Setup
+      </h2>
+      <p>Options: Phantom, Solflare, Backpack.</p>
+
+      <h2
+        className="text-2xl font-bold tracking-tighter mb-[-8px]"
+        id="funding"
+      >
+        3. Funding Your Wallet
+      </h2>
+      <p>Need an account at a CEX. Kraken is good.</p>
+
+      <h2
+        className="text-2xl font-bold tracking-tighter mb-[-8px]"
+        id="staking"
+      >
+        4. Staking Your SOL
+      </h2>
+      <p>Stake your SOL to earn more SOL.</p>
+
+      <h2 className="text-2xl font-bold tracking-tighter mb-[-8px]" id="defi">
+        5. Defi
+      </h2>
+      <p>Use Radium to earn more SOL.</p>
+
+      <h2 className="text-2xl font-bold tracking-tighter mb-[-8px]" id="nfts">
+        6. NFTs
+      </h2>
+      <p>Use Magic Eden to buy and sell NFTs.</p>
+
+      <h2
+        className="text-2xl font-bold tracking-tighter mb-[-8px]"
+        id="community"
+      >
+        7. Community
+      </h2>
+      <p>Join the Solana Discord and the Solana subreddit.</p>
+
+      <h2 className="text-2xl font-bold tracking-tighter mb-[-8px]" id="scams">
+        8. Scams to Avoid
+      </h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Be careful of phishing links and fake airdrops. Don't give your seed
+        phrase to anyone.
       </p>
     </div>
   );
