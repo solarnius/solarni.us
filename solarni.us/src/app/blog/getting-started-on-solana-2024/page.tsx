@@ -3,6 +3,22 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Getting Started on Solana in 2024",
   description: "What you need to know about getting started on Solana in 2024.",
+  openGraph: {
+    title: "Getting Started on Solana in 2024",
+    description:
+      "What you need to know about getting started on Solana in 2024.",
+    type: "article",
+    url: "https://solarni.us/blog/getting-started-on-solana-2024",
+    siteName: "solarni.us",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://solarni.us/intro/header.webp",
+        width: 1792,
+        height: 1024,
+      },
+    ],
+  },
 };
 
 export default async function Page() {
