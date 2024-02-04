@@ -142,9 +142,17 @@ export default async function Page() {
         8. Scams to Avoid
       </h2>
       <p>
-        Be careful of phishing links and fake airdrops. Don't give your seed
-        phrase to anyone.
+        Be careful of phishing links and fake airdrops. Don&apos;t give your
+        seed phrase to anyone.
       </p>
+
+      <hr />
+      <h2 className="text-lg font-bold tracking-tighter mb-[-8px]" id="scams">
+        Works Cited
+      </h2>
+      <ul className="list-disc list-inside">
+        <li>Header image by DALL-E</li>
+      </ul>
     </div>
   );
 }
