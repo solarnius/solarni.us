@@ -60,6 +60,17 @@ export default function Home() {
             </a>{" "}
             - site listing all perks for Saga holders
           </li>
+          <li>
+            <a
+              href="https://github.com/solarnius/cnft-spam-filter"
+              className="underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              cnft-spam-filter
+            </a>{" "}
+            - an open-source spam filter for Solana cNFTs
+          </li>
         </ul>
 
         <p className="font-bold tracking-tighter">things that i have written</p>
@@ -72,6 +83,12 @@ export default function Home() {
               Getting Started on Solana in 2024
             </Link>{" "}
             - Feb 4, 2023
+          </li>
+          <li>
+            <Link href="/blog/cnft-spam-filter" className="underline">
+              Fighting cNFT Spam on Solana
+            </Link>{" "}
+            - Feb 6, 2023
           </li>
         </ul>
       </div>

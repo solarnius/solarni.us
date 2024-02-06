@@ -742,9 +742,7 @@ export default async function Page() {
         starting point for you to explore this awesome blockchain.
       </p>
       <hr />
-      <h2 className="text-lg font-bold tracking-tighter mb-[-8px]" id="scams">
-        Sources
-      </h2>
+      <h2 className="text-lg font-bold tracking-tighter mb-[-8px]">Sources</h2>
       <ul className="list-disc list-inside">
         <li>Header image by DALL-E</li>
         <li>All other screenshots by author</li>

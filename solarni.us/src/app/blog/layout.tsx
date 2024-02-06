@@ -10,10 +10,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark:bg-zinc-900 dark:text-white">
       <body className={inter.className}>
         <div className="flex flex-col items-center">
-          <div className="flex flex-col max-w-2xl items-start text-start justify-start px-4">
+          <div className="flex flex-col max-w-2xl items-start text-start justify-start px-4 ">
             <div className="flex items-center gap-1">
               <Image
                 src="/favicon.ico"
