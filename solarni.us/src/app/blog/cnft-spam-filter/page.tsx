@@ -421,7 +421,7 @@ export default async function Page() {
       <p>
         If you do submit, please add only the asset IDs in quotes separated by
         commas, eg:
-        <pre className="whitespace-pre-line mt-4 bg-slate-50 dark:bg-slate-700 p-2 rounded-md w-min">
+        <pre className="whitespace-pre-line mt-4 bg-slate-50 dark:bg-slate-700 p-2 rounded-md">
           &quot;7tU3zdEQMmRij6h9wxhCwadVWaQBhmRCF71mmoYwQmVD&quot;,
           &quot;8bVGLUfaRQuFT5LZc32xd8nu1QEyxQubxERonYmFogvf&quot;,
           &quot;35YeQF7yfx4N6DZzuZAoQNx5McLinjGb8NyN7Xjqgpys&quot;,
