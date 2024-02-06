@@ -88,7 +88,7 @@ export default function Home() {
             <Link href="/blog/cnft-spam-filter" className="underline">
               Fighting cNFT Spam on Solana
             </Link>{" "}
-            - Feb 6, 2023
+            - Feb 5, 2023
           </li>
         </ul>
       </div>

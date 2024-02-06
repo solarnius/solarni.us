@@ -39,7 +39,7 @@ export default async function Page() {
           Solana with a 96% accuracy rate.
         </h2>
         <p className="text-xs">
-          Published Feb 6, 2024 by{" "}
+          Published Feb 5, 2024 by{" "}
           <a
             href="https://twitter.com/solarnius"
             target="_blank"
