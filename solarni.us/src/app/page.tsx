@@ -71,6 +71,17 @@ export default function Home() {
             </a>{" "}
             - an open-source spam filter for Solana cNFTs
           </li>
+          <li>
+            <a
+              href="https://filtoor.xyz"
+              className="underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              filtoor
+            </a>{" "}
+            - a hosted API for our open-source spam filter
+          </li>
         </ul>
 
         <p className="font-bold tracking-tighter">things that i have written</p>
