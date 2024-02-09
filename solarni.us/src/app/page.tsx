@@ -80,7 +80,7 @@ export default function Home() {
             >
               filtoor
             </a>{" "}
-            - a hosted API for our open-source spam filter
+            - a hosted, public API for cnft-spam-filter
           </li>
         </ul>
 
