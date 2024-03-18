@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex flex-col items-center gap-4 p-12">
       <div className="flex flex-col max-w-xl px-4 gap-4">
         <Image
-          src="https://img-cdn.magiceden.dev/rs:fit:640:0:0/plain/https://shdw-drive.genesysgo.net/9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT/6176.png"
+          src="https://shdw-drive.genesysgo.net/9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT/6176.png"
           alt="solarnius"
           className="rounded-full h-40 w-40 shadow-lg"
           width={160}
